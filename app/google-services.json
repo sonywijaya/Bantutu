@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "739784389464",
+    "firebase_url": "https://bantutu-e968d.firebaseio.com",
+    "project_id": "bantutu-e968d",
+    "storage_bucket": "bantutu-e968d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739784389464:android:e7f8100a6e4d24cb",
+        "android_client_info": {
+          "package_name": "sony.com.bantutu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739784389464-8brne2jau1ohodhtl9lf4b097jtubs4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLM7IR6XYrUqVYA0Vjm3XWXLCVI3XG7UI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

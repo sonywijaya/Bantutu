@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sony.com.bantutu.SignUp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_below="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:text="Register"
+        android:layout_below="@+id/editTextConfirmPassword"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>/>
+
+    <TextView
+        android:id="@+id/textViewSignIn"
+        android:text="Already Registered? Sign In here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
